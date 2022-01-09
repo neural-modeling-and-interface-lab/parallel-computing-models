@@ -5,6 +5,7 @@ The animal was trained to press the lever to generate a Sample Response event.  
 For the delay duration, the animal was required to nose-poke into a lighted device on the opposite wall.  
 When the delay ended, the nose-poke light was turned off; both levers were extended, and the animal was required to press the lever opposite to the lever it pressed during the Sample Phase and generated a Nonmatch Response.  
 If the correct lever was pressed, the animal was rewarded with a drop of water.  
+
 One session had 80-120 DNMS trials. 
 
 Spatio-temporal patterns of CA3 spikes around (-2 sec to 2 sec) Sample Response events were used as model inputs.  
