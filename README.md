@@ -10,4 +10,5 @@ In addition to the code of MIMO & MD model as well as the parallelization strate
 Data of the human studies mentioned in the paper are available to readers upon request.
 
 Please contact xiweishe@usc.edu for any questions.
+
 Author: Xiwei She
