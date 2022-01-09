@@ -1,0 +1,19 @@
+This folder contains the implementation of the double-layer memory decoding (MD) model and its parallelization strategy. 
+
+Please cite:
+She, X., Berger, T. W., & Song, D. (2021). A Double-Layer Multi-Resolution Classification Model for Decoding Spatiotemporal Patterns of Spikes With Small Sample Size. Neural Computation, 34(1), 219-254.
+
+There are three scripts and two sub-folders.
+MDMPreprocessing.m takes care of the preprocessing steps, in which recorded neural signals, behavioral signals, and input-output data are processed for the modeling step.  This should be run first.
+
+MDMEstimation.m is the main script for MD model estimation.  It trains the MD model with preprocessed data using the parallelization strategy.  This should go the second.
+
+MDMEvaludation.m is the script for evaludating the modeling performance.  It visualizes several modeling metrics showing how the trained MD model perform on the input-output dataset.  This goes the third.
+
+The folder "functions" contains all functional scripts required by the MD modeling procedure.
+
+The folder "exampleData" provides an example dataset for users to get familar and test the MIMO model as well as the parallelization strategy.  (Please do not distribute this dataset without the permission of the authors)
+
+Please contact xiweishe@usc.edu for questions.
+
+Author: Xiwei She
