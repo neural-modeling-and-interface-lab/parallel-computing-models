@@ -1,0 +1,14 @@
+This example dataset was recorded from one rat performing Delayed-NonMatch-to-Sample memory task.  
+
+Each DNMS trial started with the Sample Phase when the animal was presented randomly with one of the two levers (Left or Right) on one wall of the chamber.  
+The animal was trained to press the lever to generate a Sample Response event.  The lever was then retracted, and the Delay Phase with a random duration (5-30 sec) started.  
+For the delay duration, the animal was required to nose-poke into a lighted device on the opposite wall.  
+When the delay ended, the nose-poke light was turned off; both levers were extended, and the animal was required to press the lever opposite to the lever it pressed during the Sample Phase and generated a Nonmatch Response.  
+If the correct lever was pressed, the animal was rewarded with a drop of water.  
+One session had 80-120 DNMS trials.  
+Spatio-temporal patterns of CA3 and CA1 spikes around (-2 sec to 2 sec) Sample Response events were used as model inputs.  Lever locations (Left: 1; Right: 0) were used as model outputs. 
+
+Reference:
+She, X., Berger, T. W., & Song, D. (2021). A Double-Layer Multi-Resolution Classification Model for Decoding Spatiotemporal Patterns of Spikes With Small Sample Size. Neural Computation, 34(1), 219-254.
+
+Please do not distribute the datasets without the permission of the authors.
