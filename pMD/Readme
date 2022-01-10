@@ -8,11 +8,11 @@ MDMPreprocessing.m takes care of the preprocessing steps, in which recorded neur
 
 MDMEstimation.m is the main script for MD model estimation.  It trains the MD model with preprocessed data using the parallelization strategy.  This should go the second.
 
-MDMEvaludation.m is the script for evaludating the modeling performance.  It visualizes several modeling metrics showing how the trained MD model perform on the input-output dataset.  This goes the third.
+MDMEvaludation.m is the script for evaluating the modeling performance.  It visualizes several modeling metrics showing how the trained MD model performs on the input-output dataset.  This goes the third.
 
 The folder "functions" contains all functional scripts required by the MD modeling procedure.
 
-The folder "exampleData" provides an example dataset for users to get familar and test the MIMO model as well as the parallelization strategy.  (Please do not distribute this dataset without the permission of the authors)
+The folder "exampleData" provides an example dataset for users to get familiar with and test the MIMO model as well as the parallelization strategy.  (Please do not distribute this dataset without the permission of the authors)
 
 Please contact xiweishe@usc.edu for questions.
 
