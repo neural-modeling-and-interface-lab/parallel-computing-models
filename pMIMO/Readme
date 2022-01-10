@@ -4,15 +4,15 @@ Please cite:
 Song, D., Chan, R. H., Marmarelis, V. Z., Hampson, R. E., Deadwyler, S. A., & Berger, T. W. (2007). Nonlinear dynamic modeling of spike train transformations for hippocampal-cortical prostheses. IEEE Transactions on Biomedical Engineering, 54(6), 1053-1066.
 
 There are three scripts and two sub-folders.
-MIMOPreprocessing.m takes care of the preprocessing steps, in which recorded neural signals and input-output data are processed for the modeling step.  This should be run first.
+MIMOPreprocessing.m takes care of the preprocessing steps, in which recorded neural signals and input-output data are processed for the modeling step.  This should be run in first.
 
 MIMOEstimation.m is the main script for MIMO model estimation.  It trains a MIMO model with preprocessed data using the parallelization strategy.  This should go the second.
 
-MIMOEvaludation.m is the script for evaludating the modeling performance.  It visualizes several modeling metrics showing how the trained MIMO model perform on the input-output dataset.  This goes the third.
+MIMOEvaludation.m is the script for evaluating the modeling performance.  It visualizes several modeling metrics showing how the trained MIMO model performs on the input-output dataset.  This goes the third.
 
 The folder "functions" contains all functional scripts required by the MIMO modeling procedure.
 
-The folder "exampleData" provides an example dataset for users to get familar and test the MIMO model as well as the parallelization strategy.  (Please do not distribute this dataset without the permission of the authors)
+The folder "exampleData" provides an example dataset for users to get familiar with and test the MIMO model as well as the parallelization strategy.  (Please do not distribute this dataset without the permission of the authors)
 
 Please contact xiweishe@usc.edu for questions.
 
